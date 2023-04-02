@@ -1,3 +1,16 @@
 .c-app {
     min-height: 100%;
+    padding: 16px;
+
+    &__title {
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    &__body {
+        padding: 16px;
+        border: 1px solid #424756;
+        border-radius: 16px;
+        margin: auto;
+    }
 }

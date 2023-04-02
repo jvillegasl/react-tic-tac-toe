@@ -1,0 +1,14 @@
+.c-ttt-square {
+    cursor: pointer;
+    display: inline-flex;
+    width: 96px;
+    height: 96px;
+    padding: 16px;
+    background-color: #16181d;
+
+    &__symbol {
+        width: 100%;
+        height: 100%;
+        animation: fade-in 0.2s ease-in;
+    }
+}
